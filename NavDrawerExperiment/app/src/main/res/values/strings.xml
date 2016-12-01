@@ -1,0 +1,37 @@
+<!-- Copyright 2016 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
+<resources>
+    <string name="app_name">Nav Drawer Experiment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="my_app_title">My App</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="import_camera">Import</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="chose_camera">You chose Camera Import.</string>
+    <string name="chose_gallery">You chose the Gallery.</string>
+    <string name="chose_slideshow">You chose the Slideshow.</string>
+    <string name="chose_tools">You chose Tools.</string>
+    <string name="chose_share">You chose Share.</string>
+    <string name="chose_send">You chose Send.</string>
+</resources>

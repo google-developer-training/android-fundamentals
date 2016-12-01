@@ -1,0 +1,38 @@
+<!--
+  Copyright 2016 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Notification Scheduler</string>
+    <string name="periodic_interval">"Periodic Interval: "</string>
+    <string name="override_deadline">"Override Deadline: "</string>
+    <string name="seekbar_label">%1$d s</string>
+    <string name="not_set">Not Set</string>
+    <string name="no_interval_toast">Please set a periodic interval</string>
+    <string name="job_scheduled">Job Scheduled</string>
+    <string name="jobs_canceled">Jobs Canceled</string>
+    <string name="job_service">Job Service</string>
+    <string name="job_running">Your Job is running!</string>
+    <string name="required_network_type">Required Network Type:</string>
+    <string name="no_network">None</string>
+    <string name="any_network">Any</string>
+    <string name="wifi_network">Wifi</string>
+    <string name="requires">Requires:</string>
+    <string name="device_idle">Device Idle</string>
+    <string name="device_charging">Device Charging</string>
+    <string name="periodic">Periodic:</string>
+    <string name="schedule_job">Schedule Job</string>
+    <string name="cancel_jobs">Cancel Jobs</string>
+    <string name="no_constraint_toast">Please set at least one constraint</string>
+</resources>

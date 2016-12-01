@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2016 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <!-- Title of app -->
+    <string name="app_name">SimpleCalcTest</string>
+
+    <!-- Hint for first operand EditText -->
+    <string name="type_operand_one_hint">Type Operand 1</string>
+
+    <!-- Hint for second operand EditText -->
+    <string name="type_operand_two_hint">Type Operand 2</string>
+
+    <!-- Button label for add operation -->
+    <string name="add_operation_text">Add</string>
+
+    <!-- Button label for subtract operation -->
+    <string name="sub_operation_text">Sub</string>
+
+    <!-- Button label for divide operation -->
+    <string name="div_operation_text">Div</string>
+
+    <!-- Button label for mul operation -->
+    <string name="mul_operation_text">Mul</string>
+
+    <!-- Message for textview in case of errors  -->
+    <string name="computationError">Error</string>
+
+</resources>
