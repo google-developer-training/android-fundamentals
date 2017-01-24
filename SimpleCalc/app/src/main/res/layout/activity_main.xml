@@ -29,13 +29,13 @@
         android:hint="@string/type_operand_one_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal|numberSigned"/>
 
     <EditText android:id="@+id/operand_two_edit_text"
         android:hint="@string/type_operand_two_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal|numberSigned"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
