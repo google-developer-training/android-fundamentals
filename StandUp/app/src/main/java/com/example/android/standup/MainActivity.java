@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         boolean alarmUp = (PendingIntent.getBroadcast(this, 0, notifyIntent,
                 PendingIntent.FLAG_NO_CREATE) != null);
 
+        //only depends on the Pending Intent so remember to manage the lifecycle of the Pending Intent properly
         alarmToggle.setChecked(alarmUp);
 
         //Set up the PendingIntent for the AlarmManager
@@ -79,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
                     //Cancel the alarm and notification if the alarm is turned off
                     alarmManager.cancel(notifyPendingIntent);
                     mNotificationManager.cancelAll();
+                    
+                    //Cancel the Pending Intent when you cancel the alarm.
+                    //Not doing this can cause the toggle button to show up in the "ON" position even when the alarm is cancelled.
+                    notifyPendingIntent.cancel();
 
                     //Set the toast message for the "off" case
                     toastMessage = getString(R.string.alarm_off_toast);
