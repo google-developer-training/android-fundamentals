@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*
-    * Increments the number in the text view when the COUNT button is clicked.
+    * Increments the number in the text view when the COUNTUP button is clicked.
     *
     * @param view The view that triggered this onClick handler.
     *             Since the count always appears in the text view, the passed in view is not used.
@@ -51,8 +51,16 @@ public class MainActivity extends AppCompatActivity {
         mCount++;
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
+     /*Decrements the number in the text view when the COUNTDOWN button is clicked.
+     */
     }
+    public void countDown(View view) {
+        if (mCount!=0)
+        mCount--;
+        if (mShowCount != null)
+            mShowCount.setText(Integer.toString(mCount));
 
+    }
     /*
     * Shows a toast when the TOAST button is clicked.
     *
