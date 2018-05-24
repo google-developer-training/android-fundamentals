@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         Uri webpage = Uri.parse(url);
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
 
-        // Find an activity to hand the intent and start that activity.
+        // Find an activity to handle the intent and start that activity.
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         } else {
