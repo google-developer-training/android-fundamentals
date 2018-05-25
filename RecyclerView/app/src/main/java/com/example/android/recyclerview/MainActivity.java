@@ -13,12 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+/* make sure you need to add recyclerview and Floating action view to buil.gradle file(module:app)
+*it is sufficient for older versions of Androidstudio but some overhead for newer versions
+*(you need add if your are using newer versions)
+*it makes some bugs if you dont did proper setup*/
 package com.example.android.recyclerview;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity; 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
