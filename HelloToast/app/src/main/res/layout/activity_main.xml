@@ -54,5 +54,30 @@ limitations under the License. -->
         android:onClick="countUp"
         android:text="@string/button_label_count"
         android:textColor="@android:color/white" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_countup"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="countUp"
+            android:text="@string/button_label_countUp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/button_countdown"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="countDown"
+            android:text="@string/button_label_countdown"
+            android:textColor="@android:color/white"/>
+    </GridLayout>
+
 
 </LinearLayout>

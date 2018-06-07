@@ -15,7 +15,8 @@ limitations under the License. -->
 
 <resources>
     <string name="app_name">Hello Toast</string>
-    <string name="button_label_count">Count</string>
+    <string name="button_label_countUp">CountUp</string>
+    <string name="button_label_countdown">CountDown</string>
     <string name="button_label_toast">Toast</string>
     <string name="count_initial_value">0</string>
     <string name="toast_button_toast">Hello Toast!</string>

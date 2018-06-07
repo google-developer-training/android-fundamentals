@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Log.d(LOG_TAG, "onStart");
+        Toast.makeText(this, "Activity_started", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -133,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
     public void onRestart() {
         super.onRestart();
         Log.d(LOG_TAG, "onRestart");
+        Toast.makeText(this, "Activity_restarted", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -142,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         Log.d(LOG_TAG, "onResume");
+        Toast.makeText(this, "Activity_resumed", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -151,6 +154,7 @@ public class MainActivity extends AppCompatActivity {
     public void onPause() {
         super.onPause();
         Log.d(LOG_TAG, "onPause");
+        Toast.makeText(this, "Activity_paused", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -160,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
     public void onStop() {
         super.onStop();
         Log.d(LOG_TAG, "onStop");
+        Toast.makeText(this, "Activity_stopped", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -169,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
     public void onDestroy() {
         super.onDestroy();
         Log.d(LOG_TAG, "onDestroy");
+        Toast.makeText(this, "Activity_destroyed", Toast.LENGTH_SHORT).show();
     }
 
     /**
