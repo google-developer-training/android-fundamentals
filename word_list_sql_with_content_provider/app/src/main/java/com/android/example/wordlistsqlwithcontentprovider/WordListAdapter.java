@@ -114,7 +114,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
             public void onClick(View v) {
                 selectionArgs = new String[]{Integer.toString(id)};
                 int deleted = mContext.getContentResolver().delete(CONTENT_URI, CONTENT_PATH,
-                        selectionArgs);
+                        new String[]{String.valueof(id)});
                 if (deleted > 0) {
                     // Need both calls
                     notifyItemRemoved(h.getAdapterPosition());
