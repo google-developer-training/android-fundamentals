@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         // The third argument is a boolean that indicates whether the default values
         // should be set more than once. When false, the system sets the default values
         // only if this method has never been called in the past.
-        PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
+        android.support.v7.preference.PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
 
         // Read settings
         SharedPreferences sharedPref =
